@@ -3,7 +3,9 @@ A collection of codes used to generate Fisher forecasts for 3x2pt surveys.
 
 ## Requirements
 The jupyter notebook codes require CAMB 1.4.0 to run, and a valid FILEPATH stated at the top of each notebook.
+
 The C++ code requries GSL-2.7 to compile and run, and a valid FILEPATH stated in the stdafx.h file.
+
 Computing the 4MOST galaxy selection functions requires cleaned data from the 4MOST Facility Simulations.
 
 ## Usage
@@ -32,6 +34,7 @@ GraphGeneration contains a jupyter notebook for graphing Fisher matrices into co
 
 ## Other notes
 C++ code solves radial integrals through ODE solvers, and then splining the final integrand. This can produce some noise at high angular multipole moments, unless you use fine sampling of k-space. Possible workarounds for this include implementing FFTLog.
+
 The parameter file is saved as a CSV. This occasionally introduces a bug, requiring you to open the CSV file and save it to resolve.
 
 ## Future planned updates
