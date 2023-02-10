@@ -10,10 +10,10 @@ Computing the 4MOST galaxy selection functions requires cleaned data from the 4M
 
 ## Usage
 Codes should be ran in order:
--InputGeneration
--AngularSpectraGeneration
--FisherMatrixGeneration
--GraphGeneration
+- InputGeneration
+- AngularSpectraGeneration
+- FisherMatrixGeneration
+- GraphGeneration
 
 InputGeneration contains a jupyter notebook for generating the input files required to compute angular power spectra.
 Additionally, includes:
